@@ -74,3 +74,46 @@ ul {
     padding-left: 350px;
 }
 
+/* Section Two */
+
+.two {
+    padding-bottom: 100px;
+}
+
+.main-container{
+    display:flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.info-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 0;
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 900;
+}
+
+.secondary-container {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    width: 175px;
+}
+
+.info-images {
+    height: 150px;
+    width: 150px;
+    border: 3px solid #3882F6;
+    border-radius: 15px;
+
+}
+
+.secondary-text{
+    margin-top: 10px;
+    text-align: center;
+    font-size: 16px;
+    color: grey;
+}
