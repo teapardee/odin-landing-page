@@ -2,6 +2,7 @@
 
 html {
   font-size: 62.5%;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 
 html,
@@ -71,12 +72,12 @@ ul {
   padding: 0.5rem 2.5rem;
   border: 0px;
   border-radius: 5px;
-  margin-top: 3rem;
+  margin-top: 1.5rem;
 }
 
 .lake-img {
-  max-height: 250px;
-  padding-left: 3.5rem;
+  height: 250px;
+  padding-left: 25rem;
 }
 
 /* Section Two */
@@ -144,4 +145,33 @@ ul {
   font-weight: bold;
   font-size: 1.8rem;
   padding: 1rem 3rem 0 0;
+}
+
+/* Section Four */
+
+.four {
+  padding: 10rem 50rem;
+}
+
+.cta-primary-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #3882f6;
+  padding: 4rem 10rem;
+  border-radius: 10px;
+}
+
+.cta-header {
+  font-weight: 800;
+  font-size: 2rem;
+  color: #f9faf8;
+}
+
+.button-transparent {
+  background-color: #3882f6;
+  color: white;
+  padding: 0.5rem 2.5rem;
+  border-radius: 5px;
+  border: 2px solid #f9faf8;
 }
