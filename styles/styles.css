@@ -1,3 +1,5 @@
+/* Set base font size = 10px */
+
 html {
   font-size: 62.5%;
 }
@@ -11,8 +13,8 @@ body {
 .header,
 .section,
 .body {
-  padding-left: 300px;
-  padding-right: 300px;
+  padding-left: 30rem;
+  padding-right: 30rem;
 }
 
 /* Header */
@@ -29,8 +31,8 @@ body {
   color: #f9faf8;
   font-size: 2.4rem;
   height: 50px;
-  padding-top: 15px;
-  padding-bottom: 15px;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
 }
 
 .nav-container {
@@ -39,7 +41,7 @@ body {
 
 ul {
   margin: 0;
-  padding-left: 20px;
+  padding-left: 2rem;
 }
 
 .text {
@@ -52,35 +54,35 @@ ul {
 .one {
   display: flex;
   justify-content: space-between;
-  padding-top: 50px;
-  padding-bottom: 100px;
+  padding-top: 5rem;
+  padding-bottom: 10rem;
 }
 
 .hero-main-text {
   color: #f9faf8;
   font-size: 4.8rem;
   font-weight: 900;
-  margin-bottom: 25px;
+  margin-bottom: 2.5rem;
 }
 
 .button-full {
   background-color: #3882f6;
   color: white;
-  padding: 5px 25px;
+  padding: 0.5rem 2.5rem;
   border: 0px;
   border-radius: 5px;
-  margin-top: 30px;
+  margin-top: 3rem;
 }
 
 .lake-img {
-  height: 250px;
-  padding-left: 350px;
+  max-height: 250px;
+  padding-left: 3.5rem;
 }
 
 /* Section Two */
 
 .two {
-  padding-bottom: 100px;
+  padding-bottom: 10rem;
   background-color: white;
 }
 
@@ -104,18 +106,18 @@ ul {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 175px;
+  max-width: 175px;
 }
 
 .info-images {
-  height: 150px;
-  width: 150px;
+  max-height: 150px;
+  max-width: 150px;
   border: 3px solid #3882f6;
   border-radius: 15px;
 }
 
 .secondary-text {
-  margin-top: 10px;
+  margin-top: 1rem;
   text-align: center;
   font-size: 1.6rem;
   color: grey;
@@ -127,7 +129,7 @@ ul {
   display: flex;
   flex-direction: column;
   background-color: #e5e7eb;
-  padding: 100px 500px;
+  padding: 10rem 50rem;
 }
 
 .quote-text {
@@ -140,4 +142,6 @@ ul {
 .quote-signature {
   text-align: right;
   font-weight: bold;
+  font-size: 1.8rem;
+  padding: 1rem 3rem 0 0;
 }
