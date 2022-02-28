@@ -1,6 +1,6 @@
 # odin-landing-page
 
-The Odin Project - Landing Page Project:
+**The Odin Project - Landing Page Project:**
 
 This project helped reinforece the following lessons:
 
