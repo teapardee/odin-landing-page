@@ -13,7 +13,7 @@ I found great value in this project because it helped me get a better understand
 - Reviewing the requirements, colors, fonts & desired end result
 - Thinking through how to structure the landing page in an efficient way
 - Determining what elements had common css properties
-- Build out each section by following the following wor
+- Following the same process when building out each section:
   - Add HTML
   - Add CSS
   - Commit after each section
